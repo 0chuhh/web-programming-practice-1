@@ -1,0 +1,110 @@
+body {
+  font-family: "PT Sans Caption";
+  text-align: center;
+  font-size: 0.65vw;
+  line-height: 250%;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+}
+.flowers {
+  width: 100%;
+  display: flex;
+}
+.content-box {
+  width: 60%;
+  border-radius: 51px;
+  margin: 5% auto;
+  background: linear-gradient(261.38deg, #0060d9 18.47%, #004193 93.48%);
+}
+.nav-line {
+  width: 90%;
+  height: 10px;
+  
+  margin: 5px auto;
+  border-radius: 51px;
+  background: #0096ec;
+}
+.navbar {
+  padding-top: 5%;
+  height: 20px;
+}
+.nav-menu {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.nav-menu-item {
+  height: 100%;
+  width: 25%;
+  background: none;
+  border-style: none;
+  transition: all 0.3s ease;
+}
+.active {
+  background: #6bff2f;
+}
+.nav-menu-item:hover {
+  background: #028cdb;
+  cursor: pointer;
+}
+
+.active:hover {
+  background: #6bff2f;
+}
+
+.nav-marks {
+  width: 5px;
+  color: rgba(255, 255, 255, 0);
+  height: 250%;
+  background: #028cdb;
+}
+.main-text {
+  padding-top: 10%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.dop-text {
+  font-size: 200%;
+  line-height: 200%;
+  padding-top: 10%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 8%;
+  margin: 0 auto;
+}
+
+.img {
+  width: 100%;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  margin: 5%;
+}
+.image-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.img:hover {
+  transform: translate(-5%, -5%);
+  box-shadow: 10px 15px 0px #004baa;
+  cursor: pointer;
+}
+
+
+.true-answer {
+  border: 10px solid rgba(0, 255, 115, 0.856);
+}
+.false-answer {
+  border: 10px solid rgba(255, 0, 0, 0.856);
+}
